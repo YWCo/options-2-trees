@@ -13,7 +13,7 @@ import tree_plotter as tp
 
 # headings
 month = datetime.now().month
-title = "options-2-trees"
+title = "Tomi y Lucas Arme esto como ejemplo que les parece? options-2-trees"
 if 1 <= month <= 5:
     st.title(title + " 🌳🌳")
 elif 5 < month <= 8:
@@ -22,7 +22,7 @@ elif 8 < month <= 11:
     st.title(title + " 🌲🌲")
 else:
     st.title(title + " 🎄🎄")
-st.write("Que les parece esto Tomi y Lucas?")
+st.write("Options Analysis")
 st.sidebar.title("Parameters")
 
 # user inputs on sidebar
