@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jun  4 11:54:56 2021
 
-@author: ztche
+@author: Brian Evans
 """
 import streamlit as st
 from datetime import datetime
@@ -23,7 +22,7 @@ elif 8 < month <= 11:
     st.title(title + " 🌲🌲")
 else:
     st.title(title + " 🎄🎄")
-st.write("by [Tony](https://www.linkedin.com/in/tony-c-8b592b162/)")
+st.write("Que les parece esto Tomi y Lucas?")
 st.sidebar.title("Parameters")
 
 # user inputs on sidebar
